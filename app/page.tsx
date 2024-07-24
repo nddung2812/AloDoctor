@@ -13,7 +13,7 @@ export default function HomePage() {
           Khám chữa bệnh tại Việt Nam
           <span className="relative whitespace-nowrap text-blue-600">
             <SquigglyLines />
-            <span className="relative mt-20">Alo Doctor</span>
+            <span className="relative mx-2">Alo Doctor</span>
           </span>{" "}
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-400 leading-7">
@@ -23,7 +23,7 @@ export default function HomePage() {
           className="bg-purple-600 rounded-full text-white font-medium px-6 py-3 sm:mt-10 mt-8 hover:bg-purple-500 transition"
           href="/register"
         >
-          Đăng ký
+          Đăng ký ngay
         </Link>
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">
