@@ -9,21 +9,21 @@ export default function HomePage() {
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20 background-gradient">
-        <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-200 sm:text-7xl">
-          Empowering Business with {" "}
+        <h1 className="mx-auto max-w-5xl font-display text-5xl font-bold tracking-normal text-gray-200 sm:text-7xl">
+          Khám chữa bệnh tại Việt Nam
           <span className="relative whitespace-nowrap text-blue-600">
             <SquigglyLines />
-            <span className="relative">ButterBeer.io</span>
+            <span className="relative mt-20">Alo Doctor</span>
           </span>{" "}
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-400 leading-7">
-          Allow us to assist in transforming every business challenge into digital opportunities.
+          Liên hệ với chúng tôi ngay để được tư vấn khám chữa bệnh tại Viêt Nam nhanh gọn và tiết kiệm thời gian cho quý vị.
         </h2>
         <Link
           className="bg-purple-600 rounded-full text-white font-medium px-6 py-3 sm:mt-10 mt-8 hover:bg-purple-500 transition"
           href="/register"
         >
-          Register now
+          Đăng ký
         </Link>
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">

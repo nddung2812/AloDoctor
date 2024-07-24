@@ -15,7 +15,7 @@ export default function Header() {
           height={2000}
         />
         <h1 className="sm:text-3xl text-xl font-bold ml-2 tracking-tight">
-          ButterBeer.io
+          alodoctor
         </h1>
       </Link>
       <a
@@ -24,7 +24,7 @@ export default function Header() {
         rel="noopener noreferrer"
       >
         <FaPaperPlane />
-        <p>Connect Now</p>
+        <p>Tìm hiểu thêm</p>
       </a>
     </header>
   );
