@@ -61,7 +61,7 @@ export default function RegisterPage() {
             <Header />
             <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
                 <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-                    Register your <span className="text-blue-600">Business</span> now
+                    Đăng ký thông tin<span className="text-blue-600"> của bạn</span>!
                 </h1>
                 <ResizablePanel>
                     <AnimatePresence mode="wait">
@@ -76,7 +76,7 @@ export default function RegisterPage() {
                                             alt="1 icon"
                                         />
                                         <label className="block mb-2" htmlFor="fullName">
-                                            Your Full Name
+                                            Tên đầy đủ
                                         </label>
                                     </div>
                                     <Controller
@@ -133,7 +133,7 @@ export default function RegisterPage() {
                                         type="submit"
                                         className="bg-blue-500 text-white px-8 mt-6 py-2 rounded hover:bg-blue-600"
                                     >
-                                        Submit
+                                        Đăng ký
                                     </button>
                                 </div>
                             </form>
