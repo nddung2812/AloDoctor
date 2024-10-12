@@ -15,7 +15,7 @@ export default function Header() {
           height={2000}
         />
         <h1 className="sm:text-3xl text-xl font-bold ml-2 tracking-tight">
-          alodoctor
+          alodoctor.com.au
         </h1>
       </Link>
       <a

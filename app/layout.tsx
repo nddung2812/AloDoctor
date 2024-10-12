@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title,
   description,
   icons: {
-    icon: "/digify-favicon.png",
+    icon: "/VHLogoSquare.png",
   },
   openGraph: {
     images: [ogimage],
