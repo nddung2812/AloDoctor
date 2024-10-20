@@ -105,7 +105,7 @@ export default function RegisterPage() {
                                             alt="1 icon"
                                         />
                                         <label className="block mb-2" htmlFor="businessName">
-                                            Your Email Address
+                                            Địa chỉ Email
                                         </label>
                                     </div>
                                     <Controller
