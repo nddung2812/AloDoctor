@@ -43,7 +43,7 @@ export default function RegisterPage() {
     const onSubmit = (data: FormValues) => {
         // You can perform your form submission logic here
         // For this example, we'll just show a success message
-        toast.success('Chúc mừng quý khác đã đăng ký thành công!', {
+        toast.success('Chúc mừng quý khách đăng ký thành công!', {
             position: 'top-right',
         });
         emailjs.send('service_gyjqr5k', 'template_rz6hebe', data, 'psj8EnrbwXG_cHccx')
