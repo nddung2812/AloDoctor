@@ -12,7 +12,7 @@ export default function DreamPage() {
             <Header />
             <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
                 <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-                    Scan our <span className="text-blue-600">QR Code</span>
+                    Quét mã<span className="text-blue-600"> QR Code</span>
                 </h1>
                 <ResizablePanel>
                     <AnimatePresence mode="wait">
@@ -22,7 +22,7 @@ export default function DreamPage() {
                                 </div>
                             </div>
                             <Image
-                                src="/qrcode.png"
+                                src="/qrVhFb.png"
                                 width={300}
                                 height={300}
                                 alt="1 icon"
