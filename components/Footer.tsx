@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const facebookLink = "https://www.facebook.com/profile.php?id=61562008169164&mibextid=ZbWKwL"
+export const facebookLink = "https://www.facebook.com/profile.php?id=61562008169164&mibextid=ZbWKwL"
 
 export default function Footer() {
   return (

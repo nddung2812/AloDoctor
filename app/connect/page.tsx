@@ -6,6 +6,10 @@ import { useState } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import ResizablePanel from "../../components/ResizablePanel";
+import Link from "next/link";
+
+import { facebookLink} from "../../components/Footer"
+
 export default function DreamPage() {
     return (
         <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
@@ -28,6 +32,12 @@ export default function DreamPage() {
                                 alt="1 icon"
                                 className="object-contain"
                             />
+                                <Link
+                                    className="bg-blue-600 rounded-full text-white font-medium px-6 py-3 sm:mt-10 mt-8 hover:bg-purple-500 transition"
+                                    href={facebookLink}
+                                    >
+                                    Đọc thêm
+                                </Link>
                         </motion.div>
                     </AnimatePresence>
                 </ResizablePanel>
