@@ -3,6 +3,7 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SquigglyLines from "../components/SquigglyLines";
+import WhyUs from "../components/WhyUs";
 
 export default function HomePage() {
   return (
@@ -29,7 +30,7 @@ export default function HomePage() {
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-8 sm:flex-row flex-col">
               <div>
-                <h2 className="mb-1 font-medium text-lg">Instant and Effective</h2>
+                <h2 className="mb-1 font-medium text-lg">Đơn giản và tiết kiệm</h2>
                 <Image
                   alt="Original photo of a room with roomGPT.io"
                   src="/global.jpg"
@@ -39,7 +40,7 @@ export default function HomePage() {
                 />
               </div>
               <div className="sm:mt-0 mt-8">
-                <h2 className="mb-1 font-medium text-lg">Reliable Communication</h2>
+                <h2 className="mb-1 font-medium text-lg">Nhanh gọn và uy tín</h2>
                 <Image
                   alt="Generated photo of a room with roomGPT.io"
                   width={400}
@@ -49,7 +50,7 @@ export default function HomePage() {
                 />
               </div>
               <div className="sm:mt-0 mt-8">
-                <h2 className="mb-1 font-medium text-lg">Digital Solutions</h2>
+                <h2 className="mb-1 font-medium text-lg">Phục vụ chăm sóc chu đáo</h2>
                 <Image
                   alt="Generated photo of a room with roomGPT.io"
                   width={400}
@@ -61,6 +62,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        <WhyUs />
       </main>
       <Footer />
     </div>

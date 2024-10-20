@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaPaperPlane } from 'react-icons/fa';
-import logoWhitetext from '../styles/assets/logoWhitetext.png'
+import VHLogoSquare from '../public/VHLogoSquare.png'
 
 export default function Header() {
   return (
@@ -9,12 +9,12 @@ export default function Header() {
       <Link href="/" className="flex items-center space-x-2">
         <Image
           alt="header text"
-          src={logoWhitetext}
+          src={VHLogoSquare}
           className="sm:w-10 sm:h-10 w-12 h-12"
           width={2000}
           height={2000}
         />
-        <h1 className="sm:text-3xl text-xl font-bold ml-2 tracking-tight">
+        <h1 className="sm:text-2xl text-xl font-bold ml-2 tracking-tight">
           alodoctor.com.au
         </h1>
       </Link>
