@@ -46,7 +46,7 @@ export default function RegisterPage() {
         toast.success('Form submitted successfully!', {
             position: 'top-right',
         });
-        emailjs.send('service_y9xivx5', 'template_6n6pybr', data, 'yauFqbajnU38sZMgv')
+        emailjs.send('service_gyjqr5k', 'template_rz6hebe', data, 'aqFOOCKNk2ZyYLnQkovuI')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
             }, function (error) {
