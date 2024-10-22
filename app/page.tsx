@@ -10,8 +10,8 @@ export default function HomePage() {
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20 background-gradient">
-        <h1 className="mx-auto max-w-5xl font-display text-5xl font-bold tracking-normal text-gray-200 sm:text-7xl">
-          Khám chữa bệnh tại Việt Nam
+        <h1 className="mx-auto max-w-3xl font-display text-3xl font-bold tracking-normal text-gray-200 sm:text-6xl">
+          Dịch Vụ Y Tế Cao Cấp<br /> Việt Nam - Australia <br />
           <span className="relative whitespace-nowrap text-blue-600">
             <SquigglyLines />
             <span className="relative mx-2">Alo Doctor</span>
