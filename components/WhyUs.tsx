@@ -24,8 +24,7 @@ const ResponsiveTable: React.FC = () => {
         {rows1.map((row, index) => (
           <React.Fragment key={index}>
             <div className='flex items-center'>
-
-            <FaCheckSquare color=''/>
+            <FaCheckSquare color='#34b233'/>
             <div className="p-2 shadow-md rounded-md">{row.column1}</div>
             </div>
           </React.Fragment>

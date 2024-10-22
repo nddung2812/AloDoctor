@@ -62,6 +62,20 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        <div className="container">
+          <h2 className="mx-auto max-w-3xl font-display text-3xl font-bold tracking-normal text-gray-200 sm:text-6xl mt-4">
+            Tại sao lại là
+            <span className="relative whitespace-nowrap text-blue-600">
+              <span className="relative mx-2"> Alo Doctor</span>
+            </span>
+          </h2>
+          <h2 className="mx-auto mt-6 max-w-2xl text-lg sm:text-gray-400  text-gray-400 leading-7">
+            Bạn chán nản với việc chờ đợi quá lâu để gặp Specialist tại Australia?
+          </h2>
+          <h2 className="mx-auto mt-2 mb-4 max-w-2xl text-lg sm:text-gray-400  text-gray-400 leading-7">
+            Bạn tận dụng thời gian về thăm quê hương kết hợp sử dụng các dịch vụ y tế cao cấp tại Việt Nam.
+          </h2>
+        </div>
         <WhyUs />
       </main>
       <Footer />
