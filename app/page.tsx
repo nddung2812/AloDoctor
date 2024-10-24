@@ -33,7 +33,7 @@ export default function HomePage() {
                 <h2 className="mb-1 font-medium text-lg">Đơn giản và tiết kiệm</h2>
                 <Image
                   alt="Original photo of a room with roomGPT.io"
-                  src="/global.jpg"
+                  src="/Doctor1.jpg"
                   className="w-full object-contain h-96 rounded-2xl"
                   width={400}
                   height={500}
@@ -45,7 +45,7 @@ export default function HomePage() {
                   alt="Generated photo of a room with roomGPT.io"
                   width={400}
                   height={500}
-                  src="/reliable.jpg"
+                  src="/Doctor2.jpg"
                   className="w-full object-contain h-96 rounded-2xl sm:mt-0 mt-2"
                 />
               </div>
@@ -55,7 +55,7 @@ export default function HomePage() {
                   alt="Generated photo of a room with roomGPT.io"
                   width={400}
                   height={500}
-                  src="/solution.jpg"
+                  src="/Doctor3.jpg"
                   className="w-full object-contain h-96 rounded-2xl sm:mt-0 mt-2"
                 />
               </div>
