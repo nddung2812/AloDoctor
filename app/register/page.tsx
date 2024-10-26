@@ -14,18 +14,27 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import emailjs from '@emailjs/browser';
 
-
 type FormValues = {
     fullName: string;
     businessEmail: string;
+    phone: string;
+    message: string;
 };
 
 const schema = yup.object().shape({
-    fullName: yup.string().required('*Full Name is required'),
+    fullName: yup.string().required('*Chúng tôi cần tên đầy đủ của bạn'),
     businessEmail: yup
         .string()
-        .email('*Invalid email format')
-        .required('*Email is required'),
+        .email('*Bạn vui lòng kiểm tra lại email')
+        .required('*Vui lòng nhập email'),
+    phone: yup
+        .string()
+        .required('*Bạn vui lòng kiểm tra lại số điện thoại')
+        .matches(/^[0-9()+-\s]+$/, '*Vui lòng nhập lại số điện thoại'),
+    message: yup
+        .string()
+        .required('*Bạn vui lòng để lại tin nhắn')
+        .max(500, '*Tin nhắn của bạn vượt quá 500 ký tự'),
 });
 
 export default function RegisterPage() {
@@ -39,10 +48,7 @@ export default function RegisterPage() {
         resolver: yupResolver(schema),
     });
 
-
     const onSubmit = (data: FormValues) => {
-        // You can perform your form submission logic here
-        // For this example, we'll just show a success message
         toast.success('Chúc mừng quý khách đăng ký thành công!', {
             position: 'top-right',
         });
@@ -52,7 +58,7 @@ export default function RegisterPage() {
             }, function (error) {
                 console.log('FAILED...', error);
             });
-        reset(); // Reset the form after submission
+        reset();
     };
 
     return (
@@ -74,7 +80,7 @@ export default function RegisterPage() {
                                             height={30}
                                             alt="1 icon"
                                         />
-                                        <label className="block mb-2" htmlFor="fullName">
+                                        <label className="block" htmlFor="fullName">
                                             Tên đầy đủ
                                         </label>
                                     </div>
@@ -87,24 +93,25 @@ export default function RegisterPage() {
                                                 {...field}
                                                 type="text"
                                                 id="fullName"
-                                                placeholder="Full Name"
+                                                placeholder="Họ và tên đầy đủ"
                                                 className="border rounded w-full p-2 text-black"
                                             />
                                         )}
                                     />
                                     {errors.fullName && (
-                                        <p className="text-red-500">{errors.fullName.message}</p>
+                                        <p className="text-red-500 text-left">{errors.fullName.message}</p>
                                     )}
                                 </div>
+
                                 <div className="space-y-4 w-full max-w-sm">
                                     <div className="flex mt-10 items-center space-x-3">
                                         <Image
                                             src="/number-2-white.svg"
                                             width={30}
                                             height={30}
-                                            alt="1 icon"
+                                            alt="2 icon"
                                         />
-                                        <label className="block mb-2" htmlFor="businessName">
+                                        <label className="block" htmlFor="businessEmail">
                                             Địa chỉ Email
                                         </label>
                                     </div>
@@ -117,16 +124,73 @@ export default function RegisterPage() {
                                                 {...field}
                                                 type="text"
                                                 id="businessEmail"
-                                                placeholder="Enter your email"
+                                                placeholder="Email của bạn"
                                                 className="border rounded w-full p-2 text-black"
                                             />
                                         )}
                                     />
                                     {errors.businessEmail && (
-                                        <p className="text-red-500">{errors.businessEmail.message}</p>
+                                        <p className="text-red-500 text-left">{errors.businessEmail.message}</p>
                                     )}
-
                                 </div>
+
+                                <div className="space-y-4 w-full max-w-sm">
+                                    <div className="flex mt-10 items-center space-x-3">
+                                        <Image
+                                            src="/number-3-white.svg"
+                                            width={30}
+                                            height={30}
+                                            alt="3 icon"
+                                        />
+                                        <label className="block" htmlFor="phone">
+                                            Số điện thoại
+                                        </label>
+                                    </div>
+                                    <Controller
+                                        name="phone"
+                                        control={control}
+                                        defaultValue=""
+                                        render={({ field }) => (
+                                            <input
+                                                {...field}
+                                                type="text"
+                                                id="phone"
+                                                placeholder="Số điện thoại tại Úc hoặc Việt Nam nếu có"
+                                                className="border rounded w-full p-2 text-black"
+                                            />
+                                        )}
+                                    />
+                                    {errors.phone && (
+                                        <p className="text-red-500 text-left">{errors.phone.message}</p>
+                                    )}
+                                </div>
+
+                                <div className="space-y-4 w-full max-w-sm">
+                                    <div className="flex mt-10 items-center space-x-3">
+                                        <label className="block" htmlFor="message">
+                                            Lời nhắn của bạn
+                                        </label>
+                                    </div>
+                                    <Controller
+                                        name="message"
+                                        control={control}
+                                        defaultValue=""
+                                        render={({ field }) => (
+                                            <textarea
+                                                {...field}
+                                                id="message"
+                                                placeholder="Hãy chúng tôi biết thêm thông tin cụ thể"
+                                                rows={5}
+                                                maxLength={500}
+                                                className="border rounded w-full p-2 text-black"
+                                            />
+                                        )}
+                                    />
+                                    {errors.message && (
+                                        <p className="text-red-500 text-left">{errors.message.message}</p>
+                                    )}
+                                </div>
+
                                 <div className="my-4">
                                     <button
                                         type="submit"
@@ -142,6 +206,6 @@ export default function RegisterPage() {
                 </ResizablePanel>
             </main>
             <Footer />
-        </div >
+        </div>
     );
 }
