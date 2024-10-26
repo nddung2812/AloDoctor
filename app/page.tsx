@@ -32,7 +32,7 @@ export default function HomePage() {
               <div>
                 <h2 className="mb-1 font-medium text-lg">Đơn giản và tiết kiệm</h2>
                 <Image
-                  alt="Original photo of a room with roomGPT.io"
+                  alt="khám bệnh đơn giản"
                   src="/Doctor1.jpg"
                   className="w-full object-cover rounded-2xl"
                   width={400}
@@ -42,7 +42,7 @@ export default function HomePage() {
               <div className="sm:mt-0 mt-8">
                 <h2 className="mb-1 font-medium text-lg">Nhanh gọn và uy tín</h2>
                 <Image
-                  alt="Generated photo of a room with roomGPT.io"
+                  alt="Khám bênh nhanh gọn uy tín"
                   width={400}
                   height={500}
                   src="/Doctor2.jpg"
@@ -52,7 +52,7 @@ export default function HomePage() {
               <div className="sm:mt-0 mt-8">
                 <h2 className="mb-1 font-medium text-lg">Chăm sóc chu đáo</h2>
                 <Image
-                  alt="Generated photo of a room with roomGPT.io"
+                  alt="Khám bệnh chu đáo"
                   width={400}
                   height={500}
                   src="/Doctor3.jpg"
