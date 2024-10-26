@@ -73,7 +73,7 @@ export default function HomePage() {
               <span className="relative mx-2"> Alo Doctor</span>
             </span>
           </h2>
-          <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-400 leading-7">
+          <h2 className="mx-auto mt-6 max-w-xl text-lg sm:text-gray-400  text-gray-400 leading-7">
             Liên hệ với chúng tôi ngay để được tư vấn khám chữa bệnh tại Viêt Nam nhanh gọn và tiết kiệm thời gian cho quý vị.
           </h2>
         </div>
