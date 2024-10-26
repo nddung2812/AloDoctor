@@ -17,9 +17,13 @@ export default function HomePage() {
             <span className="relative mx-2">Alo Doctor</span>
           </span>{" "}
         </h1>
-        <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-400 leading-7">
-          Liên hệ với chúng tôi ngay để được tư vấn khám chữa bệnh tại Viêt Nam nhanh gọn và tiết kiệm thời gian cho quý vị.
+        <h2 className="mx-auto mt-8 max-w-2xl text-lg sm:text-gray-400  text-gray-400 leading-7">
+          Bạn chán nản với việc chờ đợi quá lâu để gặp Specialist tại Australia?
         </h2>
+        <h2 className="mx-auto mt-2 mb-4 max-w-2xl text-lg sm:text-gray-400  text-gray-400 leading-7">
+          Bạn tận dụng thời gian về thăm quê hương kết hợp sử dụng các dịch vụ y tế cao cấp tại Việt Nam.
+        </h2>
+
         <Link
           className="bg-purple-600 rounded-full text-white font-medium px-6 py-3 sm:mt-10 mt-8 hover:bg-purple-500 transition"
           href="/register"
@@ -30,7 +34,7 @@ export default function HomePage() {
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-8 sm:flex-row flex-col">
               <Link href="#main-content">
-                <h2 className="mb-1 font-medium text-lg">Đơn giản và tiết kiệm</h2>
+                <h2 className="mb-3 font-medium text-lg">Đơn giản và tiết kiệm</h2>
                 <Image
                   alt="khám bệnh đơn giản"
                   src="/Doctor1.jpg"
@@ -40,7 +44,7 @@ export default function HomePage() {
                 />
               </Link>
               <Link href="#main-content" className="sm:mt-0 mt-8">
-                <h2 className="mb-1 font-medium text-lg">Nhanh gọn và uy tín</h2>
+                <h2 className="mb-3 font-medium text-lg">Nhanh gọn và uy tín</h2>
                 <Image
                   alt="Khám bênh nhanh gọn uy tín"
                   width={400}
@@ -50,7 +54,7 @@ export default function HomePage() {
                 />
               </Link>
               <Link href="#main-content" className="sm:mt-0 mt-8">
-                <h2 className="mb-1 font-medium text-lg">Chăm sóc chu đáo</h2>
+                <h2 className="mb-3 font-medium text-lg">Chăm sóc chu đáo</h2>
                 <Image
                   alt="Khám bệnh chu đáo"
                   width={400}
@@ -69,11 +73,8 @@ export default function HomePage() {
               <span className="relative mx-2"> Alo Doctor</span>
             </span>
           </h2>
-          <h2 className="mx-auto mt-6 max-w-2xl text-lg sm:text-gray-400  text-gray-400 leading-7">
-            Bạn chán nản với việc chờ đợi quá lâu để gặp Specialist tại Australia?
-          </h2>
-          <h2 className="mx-auto mt-2 mb-4 max-w-2xl text-lg sm:text-gray-400  text-gray-400 leading-7">
-            Bạn tận dụng thời gian về thăm quê hương kết hợp sử dụng các dịch vụ y tế cao cấp tại Việt Nam.
+          <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-400 leading-7">
+            Liên hệ với chúng tôi ngay để được tư vấn khám chữa bệnh tại Viêt Nam nhanh gọn và tiết kiệm thời gian cho quý vị.
           </h2>
         </div>
         <WhyUs />
