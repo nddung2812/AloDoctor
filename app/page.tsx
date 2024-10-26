@@ -29,40 +29,40 @@ export default function HomePage() {
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-8 sm:flex-row flex-col">
-              <div>
+              <Link href="#main-content">
                 <h2 className="mb-1 font-medium text-lg">Đơn giản và tiết kiệm</h2>
                 <Image
                   alt="khám bệnh đơn giản"
                   src="/Doctor1.jpg"
-                  className="w-full object-cover rounded-2xl"
                   width={400}
                   height={500}
+                  className="w-100 object-cover h-96 rounded-2xl"
                 />
-              </div>
-              <div className="sm:mt-0 mt-8">
+              </Link>
+              <Link href="#main-content" className="sm:mt-0 mt-8">
                 <h2 className="mb-1 font-medium text-lg">Nhanh gọn và uy tín</h2>
                 <Image
                   alt="Khám bênh nhanh gọn uy tín"
                   width={400}
                   height={500}
                   src="/Doctor2.jpg"
-                  className="w-full object-cover rounded-2xl sm:mt-0 mt-2"
+                  className="w-100 object-cover h-96 rounded-2xl sm:mt-0 mt-2"
                 />
-              </div>
-              <div className="sm:mt-0 mt-8">
+              </Link>
+              <Link href="#main-content" className="sm:mt-0 mt-8">
                 <h2 className="mb-1 font-medium text-lg">Chăm sóc chu đáo</h2>
                 <Image
                   alt="Khám bệnh chu đáo"
                   width={400}
                   height={500}
                   src="/Doctor3.jpg"
-                  className="w-full object-cover rounded-2xl sm:mt-0 mt-2"
+                  className="w-100 object-cover h-96 rounded-2xl sm:mt-0 mt-2"
                 />
-              </div>
+              </Link>
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container" id="main-content">
           <h2 className="mx-auto max-w-3xl font-display text-3xl font-bold tracking-normal text-gray-200 sm:text-6xl mt-4">
             Tại sao lại là
             <span className="relative whitespace-nowrap text-blue-600">
