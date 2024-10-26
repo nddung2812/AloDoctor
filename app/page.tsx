@@ -34,7 +34,7 @@ export default function HomePage() {
                 <Image
                   alt="Original photo of a room with roomGPT.io"
                   src="/Doctor1.jpg"
-                  className="w-full object-cover h-96 rounded-2xl"
+                  className="w-full object-cover rounded-2xl"
                   width={400}
                   height={500}
                 />
@@ -46,7 +46,7 @@ export default function HomePage() {
                   width={400}
                   height={500}
                   src="/Doctor2.jpg"
-                  className="w-full object-cover h-96 rounded-2xl sm:mt-0 mt-2"
+                  className="w-full object-cover rounded-2xl sm:mt-0 mt-2"
                 />
               </div>
               <div className="sm:mt-0 mt-8">
@@ -56,7 +56,7 @@ export default function HomePage() {
                   width={400}
                   height={500}
                   src="/Doctor3.jpg"
-                  className="w-full object-cover h-96 rounded-2xl sm:mt-0 mt-2"
+                  className="w-full object-cover rounded-2xl sm:mt-0 mt-2"
                 />
               </div>
             </div>
