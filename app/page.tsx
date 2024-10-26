@@ -38,29 +38,29 @@ export default function HomePage() {
                 <Image
                   alt="khám bệnh đơn giản"
                   src="/Doctor1.jpg"
-                  width={400}
+                  width={380}
                   height={500}
-                  className="w-100 object-cover h-96 rounded-2xl"
+                  className="w-90 object-cover h-96 rounded-2xl"
                 />
               </Link>
               <Link href="#main-content" className="sm:mt-0 mt-8">
                 <h2 className="mb-3 font-medium text-lg">Nhanh gọn và uy tín</h2>
                 <Image
                   alt="Khám bênh nhanh gọn uy tín"
-                  width={400}
+                  width={380}
                   height={500}
                   src="/Doctor2.jpg"
-                  className="w-100 object-cover h-96 rounded-2xl sm:mt-0 mt-2"
+                  className="w-90 object-cover h-96 rounded-2xl sm:mt-0 mt-2"
                 />
               </Link>
               <Link href="#main-content" className="sm:mt-0 mt-8">
                 <h2 className="mb-3 font-medium text-lg">Chăm sóc chu đáo</h2>
                 <Image
                   alt="Khám bệnh chu đáo"
-                  width={400}
+                  width={380}
                   height={500}
                   src="/Doctor3.jpg"
-                  className="w-100 object-cover h-96 rounded-2xl sm:mt-0 mt-2"
+                  className="w-90 object-cover h-96 rounded-2xl sm:mt-0 mt-2"
                 />
               </Link>
             </div>
