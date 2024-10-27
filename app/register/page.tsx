@@ -194,7 +194,7 @@ export default function RegisterPage() {
                                 <div className="my-4">
                                     <button
                                         type="submit"
-                                        className="bg-blue-500 text-white px-8 mt-6 py-2 rounded hover:bg-blue-600"
+                                        className="text-white px-8 mt-6 py-2 rounded-full border border-blue-600 bg-blue-600 hover:bg-blue-500 transition"
                                     >
                                         Đăng ký
                                     </button>
