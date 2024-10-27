@@ -24,7 +24,7 @@ export default function Header() {
         rel="noopener noreferrer"
       >
         <FaPaperPlane />
-        <p>Tìm hiểu thêm</p>
+        <p>Đọc thêm</p>
       </a>
     </header>
   );
