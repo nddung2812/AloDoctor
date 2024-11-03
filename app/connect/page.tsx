@@ -9,14 +9,16 @@ import ResizablePanel from "../../components/ResizablePanel";
 import Link from "next/link";
 
 import { facebookLink} from "../../components/Footer"
+import AboutUs from "../../components/AboutUs";
 
 export default function DreamPage() {
     return (
         <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
             <Header />
+            <AboutUs />
             <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
                 <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-                    Quét mã<span className="text-blue-600"> QR Code</span>
+                    Tìm hiểu thêm qua mã<span className="text-blue-600"> QR</span>
                 </h1>
                 <ResizablePanel>
                     <AnimatePresence mode="wait">
@@ -32,12 +34,20 @@ export default function DreamPage() {
                                 alt="qrcode"
                                 className="object-contain"
                             />
+                            <div className="sm:mt-10 mt-8 p-4">
                                 <Link
-                                    className="bg-blue-600 rounded-full text-white font-medium px-6 py-3 sm:mt-10 mt-8 hover:bg-purple-500 transition"
+                                    className="bg-blue-600 rounded-full text-white px-6 py-3 mx-2 font-medium hover:bg-purple-500 transition min-w-40"
                                     href={facebookLink}
                                     >
                                     Đọc thêm
                                 </Link>
+                                <Link
+                                    className="bg-blue-600 rounded-full text-white px-6 py-3 mx-2 font-medium hover:bg-purple-500 transition min-w-40"
+                                    href="/register"
+                                    >
+                                    Đăng ký
+                                </Link>
+                            </div>
                         </motion.div>
                     </AnimatePresence>
                 </ResizablePanel>
