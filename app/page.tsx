@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SquigglyLines from "../components/SquigglyLines";
 import WhyUs from "../components/WhyUs";
+import ReviewSlider from "../components/Review";
 
 export default function HomePage() {
   return (
@@ -78,6 +79,7 @@ export default function HomePage() {
           </h2>
         </div>
         <WhyUs />
+        <ReviewSlider />
       </main>
       <Footer />
     </div>

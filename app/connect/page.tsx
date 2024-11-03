@@ -2,7 +2,6 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
-import { useState } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import ResizablePanel from "../../components/ResizablePanel";
