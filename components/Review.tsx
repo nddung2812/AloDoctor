@@ -63,11 +63,11 @@ const ReviewSlider: React.FC = () => {
                 {[...Array(5)].map((_, i) => (
                   <FaStar
                     key={i}
-                    className={`h-5 w-5 ${i < review.rating ? 'text-yellow-400' : 'text-gray-600'}`}
+                    className={`mb-4 h-5 w-5 ${i < review.rating ? 'text-yellow-400' : 'text-gray-600'}`}
                   />
                 ))}
               </div>
-              <p className="text-gray-300 text-sm max-w-xs">{review.comment}</p>
+              <p className="text-gray-300 text-sm max-w-xs italic">{review.comment}</p>
             </div>
           ))}
         </div>
