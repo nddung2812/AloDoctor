@@ -8,7 +8,7 @@ export default function Header() {
     <header className="flex flex-col xs:flex-row justify-between items-center w-full mt-3 border-b pb-7 sm:px-4 px-2 border-gray-500 gap-2">
       <Link href="/" className="flex items-center space-x-2">
         <Image
-          alt="header text"
+          alt="Vạn Hạnh"
           src={VHLogoSquare}
           className="sm:w-10 sm:h-10 w-12 h-12"
           width={2000}

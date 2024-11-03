@@ -29,7 +29,7 @@ export default function DreamPage() {
                                 src="/qrVhFb.png"
                                 width={300}
                                 height={300}
-                                alt="1 icon"
+                                alt="qrcode"
                                 className="object-contain"
                             />
                                 <Link

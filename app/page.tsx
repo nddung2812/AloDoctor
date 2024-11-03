@@ -36,7 +36,7 @@ export default function HomePage() {
               <Link href="#main-content">
                 <h2 className="mb-3 font-medium text-lg">Đơn giản và tiết kiệm</h2>
                 <Image
-                  alt="khám bệnh đơn giản"
+                  alt="đơn giản"
                   src="/Doctor1.jpg"
                   width={380}
                   height={500}
@@ -46,7 +46,7 @@ export default function HomePage() {
               <Link href="#main-content" className="sm:mt-0 mt-8">
                 <h2 className="mb-3 font-medium text-lg">Nhanh gọn và uy tín</h2>
                 <Image
-                  alt="Khám bênh nhanh gọn uy tín"
+                  alt="nhanh gọn"
                   width={380}
                   height={500}
                   src="/Doctor2.jpg"
@@ -56,7 +56,7 @@ export default function HomePage() {
               <Link href="#main-content" className="sm:mt-0 mt-8">
                 <h2 className="mb-3 font-medium text-lg">Chăm sóc chu đáo</h2>
                 <Image
-                  alt="Khám bệnh chu đáo"
+                  alt="chu đáo"
                   width={380}
                   height={500}
                   src="/Doctor3.jpg"

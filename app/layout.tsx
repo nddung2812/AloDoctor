@@ -1,8 +1,7 @@
-import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import "../styles/globals.css";
 
-let title = "Alo Doctor | Book your doctor appointment now from Australia and get treatment in Vietnam | Đặt lịch tài Úc | Khám chữa bệnh tại Việt Nam ";
+let title = "Alo Doctor | Về thăm quê hương kết hợp sử dụng các dịch vụ y tế cao cấp tại Việt Nam | Khám bệnh đơn giản và hiệu quả ";
 let description = "Alo Doctor giúp booking đơn giản, tiết kiệm và khách hàng sẽ được sử dụng những trang thiết bị hiện đại nhất bây giờ để chăm sóc sức khoẻ cho bản thân mình";
 let ogimage = "https://firebasestorage.googleapis.com/v0/b/digifybiz-899f5.appspot.com/o/OGimage.jpg?alt=media&token=930605e0-d8d6-4f3e-9675-40c3efd1c6b9";
 let sitename = "alodoctor.com.au";
@@ -40,7 +39,6 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-[#17181C] text-white">
         {children}
-        <Analytics />
       </body>
     </html>
   );
