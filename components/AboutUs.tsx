@@ -20,7 +20,8 @@ const AboutUs: React.FC = () => {
       {/* Content Section */}
       <div className="max-w-4xl mx-auto px-3 text-center">
         <h1 className="mx-auto font-display text-3xl font-bold tracking-normal text-gray-200 sm:text-6xl mb-2">
-          Giới thiệu trung tâm y khoa Vạn Hạnh
+          Giới thiệu trung tâm y khoa <br />
+          <span className='text-teal-400'>Vạn Hạnh</span>
         </h1>
         <p className="mt-4 mb-4 text-lg sm:text-gray-400  text-gray-400 leading-7 text-justify">
           Trung tâm y khoa Vạn Hạnh gồm các bác sĩ chuyên khoa có nhiều kinh nghiệm, được đào tạo ở nước ngoài, phụ trách quản lý và giảng dạy tại nhiều viện, trường của Thành phố Hồ Chí Minh. Thấu hiểu và đồng cảm với nỗi đau của bệnh nhân và quan tâm đến việc cải thiện chất lượng điều trị các bệnh tâm thần kinh là mối quan tâm hàng đầu của đội ngũ chúng tôi.
