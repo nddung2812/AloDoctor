@@ -38,7 +38,7 @@ const ResponsiveTable: React.FC = () => {
             </div>
             <div className='flex items-center'>
               <FaCheckSquare color='#34b233' size={12} className='m-1'/>
-              <div className="p-2 sm:text-gray-200  text-gray-200">Có bác sỹ thăm khám (telehealth consultataion) sau điều trị</div>
+              <div className="p-2 sm:text-gray-200  text-gray-200">Có bác sỹ thăm khám (Telehealth consultations) sau điều trị</div>
             </div>
             <div className='flex items-center'>
               <FaCheckSquare color='#34b233' size={12} className='m-1'/>
