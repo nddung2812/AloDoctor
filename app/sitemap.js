@@ -3,13 +3,13 @@ export default function sitemap() {
     {
       url: "https://alodoctor.com.au",
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "daily",
       priority: 1,
     },
     {
       url: "https://alodoctor.com.au/register",
       lastModified: new Date(),
-      changeFrequency: "monthly",
+      changeFrequency: "weekly",
       priority: 0.8,
     },
     {
