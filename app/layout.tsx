@@ -48,19 +48,6 @@ export default function RootLayout({
         <meta name="googlebot" content="index, follow" />
         <meta name="author" content="Alo Doctor Team" />
         <link rel="canonical" href="https://www.alodoctor.com.au" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        {/* Open Graph */}
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:image" content={ogimage} />
-        <meta property="og:url" content="https://www.alodoctor.com.au" />
-        <meta property="og:site_name" content={sitename} />
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={ogimage} />
       </head>
       <body className="bg-[#17181C] text-white">
         {children}
