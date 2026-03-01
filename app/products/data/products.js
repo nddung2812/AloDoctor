@@ -177,7 +177,7 @@ export const productsData = [
       "https://cdn.shopify.com/s/files/1/0587/7422/5058/files/received-846888906936688.jpg?v=1697192314",
       "https://cdn.shopify.com/s/files/1/0587/7422/5058/files/received-1447250549170132.jpg?v=1697192313"
     ],
-    "description": "<p>Platinum red tail Dumbo Ear guppies have blue pectoral fins and their tail and dorsal fins have a red</p>\n<p>Priced for one. Please let us know if you want male or female guppy at hello@aquaticswandesign.com.au</p>",
+    "description": "<p>Platinum red tail Dumbo Ear guppies have blue pectoral fins and their tail and dorsal fins have a red</p>\n<p>Priced for one. Please let us know if you want male or female guppy at hello@alodoctor.com.au</p>",
     "features": [
       "Premium quality",
       "AQUATIC SWAN DESIGN",
