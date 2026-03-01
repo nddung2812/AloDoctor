@@ -126,7 +126,7 @@ const ContactBanner = () => {
               subtitle="Get your FREE quote today • Same-day response guaranteed"
               successMessage="Thank you for contacting us! We'll get back to you within 24 hours."
               buttonText="Send Message"
-              showServiceType={false}
+              showServiceType={true}
             />
           </div>
 

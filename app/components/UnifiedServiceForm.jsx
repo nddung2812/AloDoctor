@@ -207,8 +207,9 @@ export default function UnifiedServiceForm({
                 <SelectTrigger
                   className="bg-white/25 border border-white/40 text-white focus:border-emerald-400 focus:bg-white/30 focus:ring-2 focus:ring-emerald-400/50"
                   aria-label="Select service type"
+                  style={{ color: "rgba(255, 255, 255, 0.9)" }}
                 >
-                  <SelectValue placeholder="Select a service" />
+                  <SelectValue placeholder="Select a service" style={{ color: "rgba(255, 255, 255, 0.9)" }} />
                 </SelectTrigger>
                 <SelectContent className="bg-white/95 border-2 border-gray-300">
                   {SERVICE_OPTIONS.map((service) => (

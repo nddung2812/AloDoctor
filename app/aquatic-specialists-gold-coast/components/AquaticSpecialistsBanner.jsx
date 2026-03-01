@@ -135,7 +135,7 @@ const AquaticSpecialistsBanner = () => {
               subtitle="Get your FREE quote from Gold Coast aquatic specialists • Same-day response"
               successMessage="Thank you for contacting our Gold Coast aquatic specialists! We'll get back to you within 24 hours."
               buttonText="Get FREE Gold Coast Quote"
-              showServiceType={false}
+              showServiceType={true}
             />
           </div>
 
