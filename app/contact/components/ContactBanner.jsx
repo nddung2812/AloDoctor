@@ -269,6 +269,28 @@ const ContactBanner = () => {
                   </div>
 
                   <div className="space-y-2">
+                    <Label htmlFor="location" className="text-white font-semibold">
+                      Location *
+                    </Label>
+                    <Input
+                      type="text"
+                      id="location"
+                      name="location"
+                      className="bg-white/25 border border-white/40 text-white placeholder:text-white/70 focus:border-emerald-400 focus:bg-white/30 focus:ring-2 focus:ring-emerald-400/50"
+                      placeholder="e.g., Brisbane, Southside, Gold Coast"
+                      {...register("location", {
+                        required: "Location is required",
+                      })}
+                    />
+                    {errors.location && (
+                      <p className="text-red-400 text-sm flex items-center gap-1 font-medium">
+                        <AlertCircle className="w-4 h-4" />
+                        {errors.location.message}
+                      </p>
+                    )}
+                  </div>
+
+                  <div className="space-y-2">
                     <Label
                       htmlFor="message"
                       className="text-white font-semibold"
