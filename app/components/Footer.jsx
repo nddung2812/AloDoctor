@@ -33,6 +33,10 @@ const Footer = () => {
         label: "Accessories",
         href: "https://duckaroo.com.au/collections/accessories",
       },
+      {
+        label: "Aquatic Swan Design",
+        href: "https://aquaticswandesign.com.au/",
+      },
     ],
     company: [
       { label: "About Us", href: "/about-us" },
